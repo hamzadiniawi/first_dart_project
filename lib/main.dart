@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
             // Display Image
             Padding(
               padding: const EdgeInsets.all(16.0),
-              child: Image.asset("lib/images/coding.jpg"), //my image to be shown
+              child: Image.asset("lib/images/coding.jpg"), //my image to be shown after running
             ),
 
             // Button with Custom Message
