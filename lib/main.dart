@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Ma Première Application Flutter'),
+          title: const Text('My fist Flutter App'),
         ),
         
         body: Column(
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           children: [
             // Custom Text Widget
             const Text(
-              'Quel est ton langage de programmation favori ?',
+              'What are your favorite programming languages ?',
               style: TextStyle(
                 color: Colors.blue,
                 fontSize: 30,
